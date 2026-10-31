@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future School | Activities</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  
+  <header>
+
+    
+    <nav class="navbar container">
+      <a href="index.html" class="logo"><span>F</span>Future School</a>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">News</a></li>
+        <li><a href="booking.html" class="active">Activities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html" class="btn">Login</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  
+  <main>
+
+    
+    <section id="hero" class="hero mini">
+
+      <div class="text">
+        <p class="tag">Activities</p>
+        <h1>Register for an activity</h1>
+      </div>
+
+    </section>
+
+    
+    <section id="register" class="container register">
+
+      <div class="box">
+
+        <form class="form-grid" action="#" method="post">
+
+          <div class="field">
+            <label for="name">Student name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+
+          <div class="field">
+            <label for="grade">Grade</label>
+            <select id="grade" name="grade" required>
+              <option value="">Choose grade</option>
+              <option value="1">Grade 1</option>
+              <option value="2">Grade 2</option>
+              <option value="3">Grade 3</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="activity">Activity</label>
+            <select id="activity" name="activity" required>
+              <option value="">Choose activity</option>
+              <option value="tech">Technology Club</option>
+              <option value="science">Science Lab</option>
+              <option value="arts">Arts &amp; Design</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="date">Start date</label>
+            <input type="date" id="date" name="date">
+          </div>
+
+          <div class="field full">
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+          </div>
+
+          <div class="check full">
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to the school activity rules</label>
+          </div>
+
+          <div class="full">
+            <button type="submit" class="btn">Send Registration</button>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  
+  <footer id="bottom" class="foot">
+    <div class="text-con">
+      <a href="index.html" class="logo"><span>F</span>Future School</a>
+      <p>&copy; 2026 Future School. Learning for a better tomorrow.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
